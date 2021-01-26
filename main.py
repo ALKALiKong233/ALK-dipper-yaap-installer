@@ -17,12 +17,10 @@ print("[A]下载 ROM ( Recovery 版)")
 print("[B]下载 TWRP")
 choice = "0"
 while choice != "E":
-    choice = input("请输入功能对应字母\n")
+    choice = input("请输入功能对应字母:")
     if ( choice == "A" ):
         webbrowser.open_new(configs['rom'])
     elif ( choice == "B" ):
         webbrowser.open_new(configs['twrp'])
     elif ( choice == "E" ):
         break
-
-
